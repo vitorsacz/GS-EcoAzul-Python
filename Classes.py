@@ -1,3 +1,4 @@
+
 import oracledb
 import json
 
@@ -23,3 +24,19 @@ class Conexao():
             print("Arquivo não encontrado")    
         except Exception as e:
             print("Conexão mal-sucedida {e}")
+
+class Ong(Conexao):
+    def __init__(self, nome, pais, estado, area_atuacao) -> None:
+        self.nome = nome
+        self.pais = pais
+        self.estado = estado
+        self.area_atuacao = area_atuacao
+
+    def menu_ong():
+        print("1- Inserir ONG")
+        print("2- Alterar dados da ONG")
+        print("3- Excluir ONG")
+        print("4- Listar ONG's")
+        print("5- SAIR")
+
+        
