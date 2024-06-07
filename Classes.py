@@ -131,7 +131,6 @@ class DatabaseCsv(Conexao):
 
                 cursor = connection.cursor()
                 id_counter = 1  # Inicia o contador de ID
-                
                 for row in reader:
                     cidade, regiao, entidade, qualidade_do_ar, poluicao_agua = row
                     cursor.execute('''

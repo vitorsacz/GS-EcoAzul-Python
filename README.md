@@ -1,2 +1,14 @@
 # GS-EcoAzul-Python
-Repositório para os codigos da GS de python sobre Economia Azul - FIAP - 1/24
+
+CRUD Completo no banco de dados oracle com base no projeto desenvolvido na Global Solution FIAP - 2024 - Economia Azul.
+
+
+## Video Demonstrativo
+https://youtu.be/iz_y1BmmI0k
+
+
+## Integrantes
+
+VITOR CRUZ DOS SANTOS RM553621
+LUCCA AUGUSTO MATTEONI RM98146
+KAVEN IKE PEREIRA RM553215 
